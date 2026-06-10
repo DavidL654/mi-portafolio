@@ -1,4 +1,4 @@
-import "./Education.css";
+import "./education.css";
 
 const educationData = [
   {
