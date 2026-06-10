@@ -1,0 +1,121 @@
+
+.proyect {
+    padding: 60px 5%;
+    background: #0f172a;
+    width: 100%;
+}
+
+.proyect__main-title {
+    color: #f8fafc;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.proyect__container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    width: 100%;
+}
+
+.proyect__card {
+    background: rgba(30, 41, 59, 0.4);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(110, 231, 183, 0.18);
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    transition: 0.4s;
+}
+
+.proyect__card:hover {
+    border-color: #38bdf8;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+}
+
+.proyect__img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #38bdf8;
+    display: block;
+}
+
+.proyect__title {
+    color: #38bdf8;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.proyect__description {
+    color: #e2e8f0;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.proyect__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #38bdf8;
+    color: #0a0f1e;
+}
+
+.btn-primary:hover {
+    background: #0ea5e9;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+}
+
+.btn-secondary:hover {
+    background: rgba(56, 189, 248, 0.1);
+    transform: translateY(-2px);
+}
+
+
+@media (min-width: 900px) {
+    .proyect__card {
+        flex-direction: row; 
+        padding: 40px;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .proyect__img {
+        width: 50%; 
+    }
+
+    .proyect__content {
+        flex: 1; 
+    }
+
+    .proyect__title, .proyect__description {
+        text-align: left; 
+    }
+
+    .proyect__buttons {
+        flex-direction: row; 
+        justify-content: flex-start;
+    }
+}
