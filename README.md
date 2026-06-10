@@ -10,5 +10,3 @@ Estudiante de Desarrollo de Software en la Escuela Politécnica Nacional (EPN).
 - PoliParking (Sistema de gestión de parqueaderos).
 - PoliGamer (Plataforma de interfaz gaming).
 
-## Contacto
-- [LinkedIn/Tu contacto aquí]
